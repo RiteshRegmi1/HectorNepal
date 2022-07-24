@@ -4,8 +4,8 @@
     padding: 0%;
 }
 .container{
-    height: 94vh;
-    background-color: #f4f4f4;
+    height: 100vh;
+    background-color: #f2eded;
 }
 
 /* top div */
@@ -51,6 +51,17 @@
 
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
 .buttomdiv{
 
     display: flex;
@@ -58,6 +69,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
+    min-height: 55.6vh;
     font-family:'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
 
 }
@@ -109,14 +121,3 @@
 
 
 
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
-}
-
-input[type=number] {
-    -moz-appearance:textfield; /* Firefox */
-}

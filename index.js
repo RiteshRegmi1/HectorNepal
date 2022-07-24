@@ -3,8 +3,10 @@ let enterNumber = document.getElementById("numberField");
 let convertButton = document.getElementById("convertButton").addEventListener("click", convertFunction)
 let lengthconverttxt = document.getElementById("lengthconvert")
 let volumeconvert = document.getElementById("volumeconvert")
+let footerDiv = document.getElementById("footerDiv")
 let inputValue = 0;
 let bigghaValue = 0;
+
 
 
 function convertFunction() {
