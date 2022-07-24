@@ -69,7 +69,8 @@ input[type=number] {
     flex-direction: column;
     align-items: center;
     margin-top: 4rem;
-    height: 52vh;
+    height: 48vh;
+    min-height: 48vh;
     font-family:'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
 
 }
