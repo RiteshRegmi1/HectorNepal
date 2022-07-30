@@ -31,6 +31,7 @@
 #numberField{
     margin-top: 2rem;
     height: 3rem;
+    padding: 0.5rem 1rem;
     width: 8rem;
     background-color: #6943ff;
     border: 1px solid #9574ff;
@@ -40,8 +41,8 @@
     font-weight: bold;
     border-radius: 6px;
 }
-#convertButton{
-    padding: 0.7rem;
+#convertButton, #addButton{
+    padding: 0.5rem;
     margin-top: 1.2rem;
     background-color: #ffffff;
     margin-bottom:2.1rem;
