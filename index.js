@@ -23,7 +23,7 @@ function addFunction() {
     if(xVl === ""){
     }else{
         intValue += parseInt(xVl)
-    lengthconverttxt.innerHTML =   `जम्मा वर्ग मिटर  ${intValue}`
+    lengthconverttxt.innerHTML =   `Total Square Meter : ${intValue}`
     enterNumber.value =""
     return intValue;
     }
@@ -46,7 +46,7 @@ function convertIntoLength() {
             let dhorRawValue = kathaActualValue - kathaFloorValue
             let dhorActualValue = (dhorRawValue * 20).toFixed(2)
 
-            lengthconverttxt.innerHTML = `${inputValue} वर्ग मिटर =  ${kathaFloorValue} कट्ठा  ${dhorActualValue} धुर `
+            lengthconverttxt.innerHTML = `${inputValue} Square Meter =  ${kathaFloorValue} Kattha  ${dhorActualValue} Dhur `
 
             enterNumber.value =""
         } else if (fll >= 20) {
@@ -63,7 +63,7 @@ function convertIntoLength() {
             let dhorRawValue = kathaActualValue - KathaFloorValue
             let dhorActualValue = dhorRawValue * 20;
             //showing the output in the dom
-            lengthconverttxt.innerHTML = `${inputValue} वर्ग मिटर = ${bigghafloorvalue} बिघा  ${KathaFloorValue} कट्ठा  ${(dhorActualValue).toFixed(2)} धुर `
+            lengthconverttxt.innerHTML = `${inputValue}  Square Meter = ${bigghafloorvalue} Biggha  ${KathaFloorValue} Kattha  ${(dhorActualValue).toFixed(2)} Dhur `
             enterNumber.value =""
 
         }
