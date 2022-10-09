@@ -81,7 +81,7 @@ function convertIntoLength() {
             let dhorRawValue = kathaActualValue - kathaFloorValue
             let dhorActualValue = (dhorRawValue * 20).toFixed(2)
 
-            lengthconverttxt.innerHTML = `${intValue} वर्ग मिटर =  ${kathaFloorValue} कट्ठा  ${dhorActualValue} धुर `
+            lengthconverttxt.innerHTML = `${intValue} Square Meter =  ${kathaFloorValue} Kattha  ${dhorActualValue} Dhur `
             enterNumber.value =""
 
         } else if (fll >= 20) {
@@ -98,7 +98,7 @@ function convertIntoLength() {
             let dhorRawValue = kathaActualValue - KathaFloorValue
             let dhorActualValue = dhorRawValue * 20;
             //showing the output in the dom
-            lengthconverttxt.innerHTML = `${intValue} वर्ग मिटर = ${bigghafloorvalue} बिघा  ${KathaFloorValue} कट्ठा  ${(dhorActualValue).toFixed(2)} धुर `
+            lengthconverttxt.innerHTML = `${intValue} Square Meter = ${bigghafloorvalue} Biggha  ${KathaFloorValue} Kattha  ${(dhorActualValue).toFixed(2)} Dhur `
             enterNumber.value =""
 
         }
