@@ -8,9 +8,9 @@ let intValue = 0;
 
 
 function convertFunction() {
-    inputValue = enterNumber.value
+  let   inputValue = enterNumber.value
     // console.log(inputValue)
-    convertIntoLength()
+    convertIntoLength(inputValue)
     // console.log(bigghaValue)
 
 
@@ -29,7 +29,7 @@ function addFunction() {
     }
 }
 
-function convertIntoLength() {
+function convertIntoLength(inputValue) {
     // 20 meters = 65.616 feet | 20 feet = 6.096 meters
     if (intValue === 0) {
         console.log("hey")
@@ -115,5 +115,4 @@ enterNumber.addEventListener("keypress", function (event) {
     }
 
 });
-
 
